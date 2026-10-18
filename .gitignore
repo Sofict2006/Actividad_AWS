@@ -11,3 +11,10 @@ __pycache__/
 *.pyc
 .vscode/
 .DS_Store
+
+# Planes de Terraform sin extensión
+tfplan
+**/tfplan
+
+# Archivos temporales de Word
+~$*

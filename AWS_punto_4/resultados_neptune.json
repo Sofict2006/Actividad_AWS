@@ -1,0 +1,57 @@
+{
+  "conteos": [
+    {
+      "vertices": 10,
+      "relaciones": 15
+    }
+  ],
+  "productos_de_ana": [
+    {
+      "cliente": "Ana",
+      "producto": "Audifonos"
+    },
+    {
+      "cliente": "Ana",
+      "producto": "Lampara"
+    },
+    {
+      "cliente": "Ana",
+      "producto": "Libro de datos"
+    }
+  ],
+  "clientes_de_estudio": [
+    {
+      "cliente": "Ana"
+    },
+    {
+      "cliente": "Luis"
+    },
+    {
+      "cliente": "Mateo"
+    },
+    {
+      "cliente": "Sofia"
+    },
+    {
+      "cliente": "Valentina"
+    }
+  ],
+  "coincidencias_de_ana": [
+    {
+      "cliente": "Mateo",
+      "productos_compartidos": 3
+    },
+    {
+      "cliente": "Luis",
+      "productos_compartidos": 2
+    },
+    {
+      "cliente": "Sofia",
+      "productos_compartidos": 2
+    },
+    {
+      "cliente": "Valentina",
+      "productos_compartidos": 2
+    }
+  ]
+}

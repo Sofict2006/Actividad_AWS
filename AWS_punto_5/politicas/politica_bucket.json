@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "RedshiftListar",
+      "Effect": "Allow",
+      "Principal": { "AWS": "arn:aws:iam::<ID-CUENTA>:role/RedshiftS3-taller-user3" },
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::taller-aws-gr01-user3"
+    },
+    {
+      "Sid": "RedshiftLeer",
+      "Effect": "Allow",
+      "Principal": { "AWS": "arn:aws:iam::<ID-CUENTA>:role/RedshiftS3-taller-user3" },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::taller-aws-gr01-user3/redshift/*"
+    }
+  ]
+}
