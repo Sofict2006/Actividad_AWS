@@ -1,0 +1,19 @@
+{
+  "vpc": "vpc-0463f31a93e37e675",
+  "subnets": [
+    "subnet-04ffd9bc8db1ec823",
+    "subnet-0fa712f021dfb8812"
+  ],
+  "igw": "igw-0ba4dd955db538a6f",
+  "rt": "rtb-0a29710592d519cd3",
+  "rt_assoc": [
+    "rtbassoc-0b8b705a15c859c2e",
+    "rtbassoc-002f3db0f9b8094b4"
+  ],
+  "sg_ec2": "sg-057c263d98a033388",
+  "sg_rds": "sg-00c6897ed6817bb7a",
+  "bucket": "taller-boto3-1792268376",
+  "ec2": "i-066aacfafb8945ade",
+  "subnet_group": "taller-boto3-subnets",
+  "rds": "taller-boto3-db"
+}

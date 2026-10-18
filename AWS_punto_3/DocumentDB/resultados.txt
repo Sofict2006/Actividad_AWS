@@ -1,0 +1,28 @@
+Secreto recuperado para el usuario: docdbadmin
+Versión del servidor: 5.0.0
+Total documentos: 10
+
+--- FILTRO: activos con edad > 30 ---
+{'name': 'Sofia Ramirez', 'email': 'sofia.ramirez@example.com', 'city': 'Madrid', 'age': 42, 'status': 'active', 'amount': 210.25, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Carlos Lopez', 'email': 'carlos.lopez@example.com', 'city': 'Valencia', 'age': 31, 'status': 'active', 'amount': 180.0, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Diego Torres', 'email': 'diego.torres@example.com', 'city': 'Barcelona', 'age': 39, 'status': 'active', 'amount': 320.75, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Pablo Moreno', 'email': 'pablo.moreno@example.com', 'city': 'Seville', 'age': 51, 'status': 'active', 'amount': 410.5, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+
+--- ORDENACIÓN: por amount descendente ---
+{'name': 'Pablo Moreno', 'email': 'pablo.moreno@example.com', 'city': 'Seville', 'age': 51, 'status': 'active', 'amount': 410.5, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Diego Torres', 'email': 'diego.torres@example.com', 'city': 'Barcelona', 'age': 39, 'status': 'active', 'amount': 320.75, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Elena Ruiz', 'email': 'elena.ruiz@example.com', 'city': 'Valencia', 'age': 29, 'status': 'active', 'amount': 275.0, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Sofia Ramirez', 'email': 'sofia.ramirez@example.com', 'city': 'Madrid', 'age': 42, 'status': 'active', 'amount': 210.25, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Carlos Lopez', 'email': 'carlos.lopez@example.com', 'city': 'Valencia', 'age': 31, 'status': 'active', 'amount': 180.0, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Jorge Navarro', 'email': 'jorge.navarro@example.com', 'city': 'Bilbao', 'age': 33, 'status': 'pending', 'amount': 145.25, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Ana Garcia', 'email': 'ana.garcia@example.com', 'city': 'Madrid', 'age': 28, 'status': 'active', 'amount': 120.5, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Marta Sanchez', 'email': 'marta.sanchez@example.com', 'city': 'Seville', 'age': 26, 'status': 'pending', 'amount': 95.5, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Luis Martinez', 'email': 'luis.martinez@example.com', 'city': 'Barcelona', 'age': 35, 'status': 'inactive', 'amount': 75.0, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+{'name': 'Laura Fernandez', 'email': 'laura.fernandez@example.com', 'city': 'Madrid', 'age': 45, 'status': 'inactive', 'amount': 60.0, 'load_id': '9faee189-35bd-4dd3-9a02-f8fd8111f44a'}
+
+--- AGREGACIÓN: clientes y monto por ciudad ---
+{'_id': 'Seville', 'clientes': 2, 'monto_total': 506.0}
+{'_id': 'Valencia', 'clientes': 2, 'monto_total': 455.0}
+{'_id': 'Barcelona', 'clientes': 2, 'monto_total': 395.75}
+{'_id': 'Madrid', 'clientes': 3, 'monto_total': 390.75}
+{'_id': 'Bilbao', 'clientes': 1, 'monto_total': 145.25}

@@ -1,0 +1,9 @@
+{
+    "Return": true,
+    "GroupId": "sg-04480825857204d4e"
+}
+{
+    "Return": true,
+    "GroupId": "sg-09dc41e00a1242f80"
+}
+Todo eliminado

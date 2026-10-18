@@ -1,0 +1,3 @@
+VPC=vpc-0301691277d1163b8; SN1=subnet-0c17e7e94714396e5; SN2=subnet-08a63c24539f7da62; IGW=igw-0d8ce266396cd586c; RT=rtb-0a11d9a29576560d7; RTA1=rtbassoc-088f036c560b76a03; RTA2=rtbassoc-0e31c919aa7a73c33
+SG_EC2=sg-0415c4b7e274fffe8; SG_RDS=sg-04bec57f22fdcc35c; BUCKET=taller-cli-1792271067; EC2=i-0e549eeeab76e35fb; P=taller-cli
+Todo creado

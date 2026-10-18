@@ -1,0 +1,4 @@
+bucket = "taller-tf-8e77aee2"
+ec2_id = "i-0e48578207bf13490"
+rds_endpoint = "taller-tf-db.cp0uua4wm9yi.us-east-2.rds.amazonaws.com:5432"
+secret_arn = "arn:aws:secretsmanager:us-east-2:802655955683:secret:rds!db-7867f252-b71c-4b4b-8c09-46047c8e8efd-ggSW2Q"
